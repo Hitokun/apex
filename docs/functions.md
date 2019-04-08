@@ -28,7 +28,7 @@ Description of the function. This is used as the description in AWS Lambda.
 
 ### runtime
 
-Runtime of the function. This is used as the runtime in AWS Lambda, or when required, is used to determine that the Node.js shim should be used. For example when this field is "golang", the canonical runtime used is "nodejs" and a shim is injected into the zip file.
+Runtime of the function. This is used as the runtime in AWS Lambda, or when required, is used to determine that the Node.js shim should be used. For example when this field is "perl", the canonical runtime used is "nodejs" and a shim is injected into the zip file.
 
 - type: `string`
 - required
